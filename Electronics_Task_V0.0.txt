@@ -1,0 +1,70 @@
+Configuration	Electronics_Task_V0.0
+STM32CubeMX 	6.17.0
+Date	05/17/2026
+MCU	STM32H723ZGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13(JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14(JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3(JTDO/TRACESWO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+7	PC13	GPIO_EXTI13	USER_BUTTON
+8	PC14-OSC32_IN*	RCC_OSC32_IN	
+9	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+46	PB0	GPIO_Output	LED_GREEN
+75	PB14	GPIO_Output	LED_RED
+105	PA13(JTMS/SWDIO)	DEBUG_JTMS-SWDIO	SWDIO
+109	PA14(JTCK/SWCLK)	DEBUG_JTCK-SWCLK	SWCLK
+133	PB3(JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+142	PE1	GPIO_Output	LED_YELLOW
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13(JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14(JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3(JTDO/TRACESWO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+7	PC13	GPIO_EXTI13	USER_BUTTON
+8	PC14-OSC32_IN*	RCC_OSC32_IN	
+9	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+46	PB0	GPIO_Output	LED_GREEN
+75	PB14	GPIO_Output	LED_RED
+105	PA13(JTMS/SWDIO)	DEBUG_JTMS-SWDIO	SWDIO
+109	PA14(JTCK/SWCLK)	DEBUG_JTCK-SWCLK	SWCLK
+133	PB3(JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+142	PE1	GPIO_Output	LED_YELLOW
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Electronics_Task_V0.0
+Project Folder : /Users/kantaridis/Documents/Electronics_Task_V0.0
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
